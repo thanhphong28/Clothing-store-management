@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Bundle-Activator: org.apache.logging.log4j.core.osgi.Activator
+Bundle-Description: The Apache Log4j Implementation
+Bundle-DocURL: https://www.apache.org/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Log4j Core
+Bundle-SymbolicName: org.apache.logging.log4j.core
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.20.0
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Implementation-Title: Apache Log4j Core
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Version: 2.20.0
+Import-Package: org.apache.logging.log4j.core.osgi;version="[2.14,3)",ja
+ vax.activation;version="[1.2,2)";resolution:=optional,javax.jms;version
+ ="[1.1,3)";resolution:=optional,javax.mail;version="[1.6,2)";resolution
+ :=optional,javax.mail.internet;version="[1.6,2)";resolution:=optional,j
+ avax.mail.util;version="[1.6,2)";resolution:=optional,sun.reflect;resol
+ ution:=optional
+Specification-Title: Apache Log4j Core
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 2.20
+Tool: Bnd-6.3.1.202206071316
